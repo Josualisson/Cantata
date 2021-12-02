@@ -254,3 +254,45 @@
 }
 
 /*------end-------*/
+
+/* Responsividade */
+
+@media only screen and (min-width: 320px) and (max-width: 1271px) {
+
+    .imagem1{
+        height: min-content;
+        margin: auto;
+    }
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 953px){
+
+    .title{
+        text-align: center;
+    }
+
+    .div3{
+        margin: auto;
+        height: auto;
+
+    }
+
+
+    .botao{
+        width: 90%;
+        display: flex;
+        margin-bottom: -16px;
+    }
+
+
+    .reto{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        flex-direction: column;
+    }
+}
+
+/* -------End------ */
