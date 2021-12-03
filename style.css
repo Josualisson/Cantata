@@ -57,6 +57,7 @@
 /* é a div onde está a letra das músicas */
 
 .div3{
+    margin-top: 10px;
     margin-bottom: 10px;
     box-sizing: border-box;
     margin-right: 150px;
@@ -71,7 +72,7 @@
     width: 100%;
 }
 
-.accordion-button{
+.btn .btn-outline-danger{
     height: 10px;
     margin-bottom: 10px;
 }
@@ -313,7 +314,7 @@
     .div3{
         margin: auto;
         height: auto;
-
+        margin-bottom: 10px;
     }
 
 
@@ -329,6 +330,11 @@
         justify-content: center;
         justify-items: center;
         flex-direction: column;
+    }
+
+    .btn-outline-danger{
+        height: 50px;
+        margin-bottom: 10px;
     }
 }
 
