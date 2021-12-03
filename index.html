@@ -16,8 +16,48 @@
     <script src="main.js"></script>
 </head>
 <body>
+<div>
+<!--    Made by Erik Terwan    -->
+<!--   24th of November 2015   -->
+<!--        MIT License        -->
+<nav role="navigation" style="width: 5%;">
+    <div id="menuToggle" ">
+      <!--
+      A fake / hidden checkbox is used as click reciever,
+      so you can use the :checked selector on it.
+      -->
+      <input type="checkbox" />
+      
+      <!--
+      Some spans to act as a hamburger.
+      
+      They are acting like a real hamburger,
+      not that McDonalds stuff.
+      -->
+      <span></span>
+      <span></span>
+      <span></span>
+      
+      <!--
+      Too bad the menu has to be inside of the button
+      but hey, it's pure CSS magic.
+      -->
+      <ul id="menu">
+        <a href="#letras"><li>Letras</li></a>
+        <a href="#"><li>Componentes</li></a>
+        <a href="#contatos"><li>Contatos</li></a>
+        <a href="#"><li>Ouvir Músicas</li></a>
+        
+      </ul>
+    </div>
+  </nav>
+
+    
     <div class="div1">
+
+        
     <h1 class="title">Cantata Natalina IBCE</h1>
+    
     </div>
 
     <div id="carouselExampleControls" class="carousel slide rps" data-bs-ride="carousel">
@@ -751,7 +791,7 @@
                       </div>
                     </div>
                   </div>
-                </div>
+    </div>
               
       
       <div class="collapse div2" id="collapseExample">
@@ -1395,5 +1435,23 @@
             </nav>
         </div>
       </div>
+</div>      
+
+<footer>
+    <br>
+    <h6 class="title" id="contatos">Contatos</h6>
+    <ul>
+        <li>
+            <a style="display: flex; justify-content: center; font-weight: 900; font-size: 20px;" class="btn-5 custom-btn" href="mailto:josualisson17@gmail.com" target="_blank">Email</a>
+        </li>
+        <li>
+            <a style="display: flex; justify-content: center; font-weight: 900; font-size: 20px;" class="btn-5 custom-btn" href="https://www.instagram.com/igrejaibce11/" target="_blank">Instagram</a>
+        </li>
+        <li>
+            <a style="display: flex; justify-content: center;" class="btn-5 custom-btn" href="#">(81)99619-7466</a>
+        </li>
+    </ul>
+<br>
+</footer>
 </body>
 </html>
