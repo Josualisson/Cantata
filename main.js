@@ -1,1 +1,0 @@
-alert("a função 'Ouvir músicas' ainda não está funcionando")
