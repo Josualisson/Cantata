@@ -1,5 +1,15 @@
+html{
+    scroll-margin-top: 20px;
+    scroll-behavior: smooth;
+}
+
 * {
     background-color: black;
+}
+
+::selection{
+    background-color: rgb(161, 35, 35);
+    color: #f1af09;
 }
 
 /* usado pra ajustar a foto do Carousel */
@@ -37,6 +47,13 @@
     font-weight: 900;
     font-size: 60px;
     margin-bottom: 0;
+}
+
+
+.title:hover{
+    transition: .5s ease all;
+    color: rgb(158, 25, 25);
+    text-decoration: none;
 }
 
 /* usado pra dar margem a um botão e outro */
@@ -306,6 +323,7 @@
 
 /*------end-------*/
 
+
 /* Responsividade */
 
 @media only screen and (min-width: 320px) and (max-width: 1271px) {
@@ -332,9 +350,13 @@
 }
 @media only screen and (min-width: 320px) and (max-width: 600px) {
 
+    .botao1{
+        height: 5rem;
+    }
+
     body{
         box-sizing: border-box;
-        width: auto;
+        width: 100%;
     }
 
     .imagem1{
@@ -350,10 +372,14 @@
 
 
 @media only screen and (min-width: 320px) and (max-width: 953px){
+
+    .botao1{
+        height: 5rem;
+    }
     
     body{
         box-sizing: border-box;
-        width: auto;
+        width: 100%;
     }
 
 
