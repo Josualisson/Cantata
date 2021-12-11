@@ -12,6 +12,41 @@ html{
     color: #f1af09;
 }
 
+.box{
+
+    border: 1px solid black;
+    border-radius: 15px;
+    animation: color 2s infinite;
+
+}
+.box h1{
+    color: white;
+    text-align: center;
+}
+
+@keyframes color {
+    0%{
+        border: 1px solid red;
+        box-shadow: 5px 5px 5px red;
+    }
+    25%{
+        border: 1px solid rgb(255, 238, 0);
+        box-shadow: 5px 7px 5px rgb(255, 238, 0);
+    }
+    50%{
+        border: 1px solid rgb(30, 255, 0);
+        box-shadow: 5px 5px 5px rgb(30, 255, 0);
+    }
+    75%{
+        border: 1px solid rgb(0, 17, 255);
+        box-shadow: 5px 7px 5px rgb(0, 17, 255);
+    }
+    100%{
+        border: 1px solid rgb(255, 0, 255);
+        box-shadow: 5px 5px 5px rgb(255, 0, 255);
+    }
+}
+
 /* usado pra ajustar a foto do Carousel */
 
 .imagem1{
@@ -20,9 +55,7 @@ html{
     max-width: 1000px; 
     max-height: 500px;
     margin-left: 11rem;
-    border: solid 3px #f1af09;
-    border-bottom: solid rgb(161, 35, 35) 5px;
-    border-top: solid rgb(161, 35, 35) 5px;
+
     border-radius: 10px;
     margin-bottom: 40px;
 }
@@ -356,7 +389,7 @@ html{
 
     body{
         box-sizing: border-box;
-        width: 100%;
+        width: 100%; 
     }
 
     .imagem1{
