@@ -7,6 +7,23 @@ html{
     background-color: black;
 }
 
+main{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+
+    font-weight: 900;
+    
+}
+
+/* quando o usuário selecionar alguma coisa no site pra copiar texto essas srão as cores */
+::selection{
+    background-color: rgb(161, 35, 35);
+    color: #f1af09;
+}
+
+/* scrollbar */
+
 ::-webkit-scrollbar-track {
     background-color: #F4F4F4;
 }
@@ -18,16 +35,12 @@ html{
     background: rgb(161, 35, 35);
 }
 
-
-::selection{
-    background-color: rgb(161, 35, 35);
-    color: #f1af09;
-}
+/* pisca-pisca */
 
 .box{
 
     border: 1px solid black;
-    border-radius: 15px;
+    width: auto;
     animation: color 2s infinite;
 
 }
@@ -35,6 +48,8 @@ html{
     color: white;
     text-align: center;
 }
+
+
 
 @keyframes color {
     0%{
@@ -59,16 +74,26 @@ html{
     }
 }
 
+/* borda degradê */
+
+.degrade{
+
+    border: 5px solid;
+    border-image: linear-gradient(to top, red, rgb(158, 25, 25), #f1af09, #c58f05) 1;
+    border-radius: 5px;
+}
+
 /* usado pra ajustar a foto do Carousel */
 
 .imagem1{
+    margin: 0;
     height: auto; 
     width: auto; 
     max-width: 1000px; 
     max-height: 500px;
     margin-left: 11rem;
 
-    border-radius: 10px;
+    
     margin-bottom: 40px;
 }
 
@@ -467,21 +492,11 @@ html{
 
 /* -------End------ */
 
-/*
- * Made by Erik Terwan
- * 24th of November 2015
- * MIT License
- *
- *
- * If you are thinking of using this in
- * production code, beware of the browser
- * prefixes.
- */
+
 
  body
  {
-   margin: 0;
-   padding: 0;
+
    
    /* make it look decent enough */
    background: #232323;
@@ -496,7 +511,7 @@ html{
    top: 30px;
    left: 50px;
    
-   z-index: 1;
+   z-index: 4;
    
    -webkit-user-select: none;
    user-select: none;
@@ -621,7 +636,7 @@ html{
  {
      margin-bottom: 10px;
     background: linear-gradient(to top, red,rgb(158, 25, 25), #bb420a, #c58f05, #f1af09 );
-   padding: 10px 0;
+   padding: 10px ;
    font-size: 22px;
  }
  
