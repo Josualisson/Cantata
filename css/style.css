@@ -16,6 +16,24 @@ main{
     
 }
 
+.imgmain{
+    padding: 0;
+    margin: 0;
+    width: 30rem;
+    height: 5rem;
+    margin-top: 5px;
+    
+}
+
+.titleday{
+    font-family: waving christmas;
+    margin-left: 2px;
+    margin-top: 5px;
+    font-size: 50px;
+    animation-duration: 2s;
+
+}
+
 /* quando o usuário selecionar alguma coisa no site pra copiar texto essas srão as cores */
 ::selection{
     background-color: rgb(161, 35, 35);
@@ -398,6 +416,10 @@ main{
 
 @media only screen and (min-width: 320px) and (max-width: 1271px) {
 
+    .imgmain{
+        width: 95%;
+    }
+
     #contatos{
         margin-top: 5rem;
     }
@@ -419,6 +441,10 @@ main{
 
 }
 @media only screen and (min-width: 320px) and (max-width: 600px) {
+
+    .imgmain{
+        width: 95%;
+    }
 
     .botao1{
         height: 5rem;
@@ -506,9 +532,10 @@ main{
  
  #menuToggle
  {
+    background-color: transparent;
    display: block;
    position: relative;
-   top: 30px;
+   top: 70px;
    left: 50px;
    
    z-index: 4;
@@ -647,3 +674,5 @@ main{
  {
    transform: none;
  }
+
+ 
